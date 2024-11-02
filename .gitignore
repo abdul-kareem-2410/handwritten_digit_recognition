@@ -1,5 +1,22 @@
-echo __pycache__/ > .gitignore
-echo *.pyc >> .gitignore
-echo venv/ >> .gitignore
-echo *.pyo >> .gitignore
-echo .DS_Store >> .gitignore
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment directories
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# MacOS-specific files
+.DS_Store
+
+# Log files
+*.log
+
+# Other common artifacts
+*.h5  # Model files
