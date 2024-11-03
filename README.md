@@ -5,19 +5,19 @@ This project recognizes handwritten digits using the MNIST dataset and a Convolu
 The project uses a CNN model to classify handwritten digits from the MNIST dataset, achieving a high accuracy score. The model is trained using TensorFlow and Keras libraries.
 
 **Features**
-Loads the MNIST dataset.
-Normalizes pixel values for better performance.
-Implements a CNN model for classification.
-Evaluates the model and prints accuracy score and confusion matrix.
+• Loads the MNIST dataset.
+• Normalizes pixel values for better performance.
+• Implements a CNN model for classification.
+• Evaluates the model and prints accuracy score and confusion matrix.
 
 **Requirements**
 To run this project, you need to install the following Python packages:
 
-tensorflow
-numpy
-sklearn
-matplotlib
-seaborn
+• tensorflow
+• numpy
+• sklearn
+• matplotlib
+• seaborn
 
 You can install these packages using the following command:
 
